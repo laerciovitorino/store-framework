@@ -16,7 +16,8 @@
   },
   "flex-layout.col#left": {
     "children": [
-      "product-images"
+      "product-images",
+      "flex-layout.row#qty-sku"
     ]
   },
   "flex-layout.col#right": {
@@ -28,7 +29,6 @@
       "product-name",
       "product-identifier.product",
       "product-price",
-      "flex-layout.row#qty-sku",
       "buy-button"
     ]
   },
