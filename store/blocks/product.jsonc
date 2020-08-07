@@ -16,8 +16,7 @@
   },
   "flex-layout.col#left": {
     "children": [
-      "product-images",
-      "flex-layout.row#qty-sku"
+      "product-images"
     ]
   },
   "flex-layout.col#right": {
@@ -29,6 +28,7 @@
       "product-name",
       "product-identifier.product",
       "product-price",
+      "flex-layout.row#qty-sku",
       "buy-button"
     ]
   },
@@ -44,5 +44,15 @@
       "product-quantity",
       "shipping-simulator"
     ]
+  },
+  "product-quantity": {
+    "props": {
+      "warningQuantityThreshold": 9999999
+    }
+  },
+  "sku-selector": {
+    "props": {
+      "visibility": "always"
+    }
   }
 }
