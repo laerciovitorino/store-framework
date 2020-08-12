@@ -40,11 +40,6 @@
       }
     }
   },
-  "vtex.menu@2.x:submenu#major": {
-    "children": [
-      "flex-layout.row#major"
-    ]
-  },
   "menu-item#refrigerators": {
     "props": {
       "type": "category",
